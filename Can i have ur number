@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cute Request</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f7f7f7;
+    }
+
+    #cute-message {
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      font-size: 20px;
+      color: #333;
+    }
+
+    #request-button {
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #4caf50;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="cute-message">
+  <p>Hey there! 🌟</p>
+  <p>Can I have the pleasure of getting to know you better?</p>
+  <button id="request-button">Sure, here's my number!</button>
+</div>
+
+<script>
+  document.getElementById('request-button').addEventListener('click', function () {
+    alert('Great! Send me your number when you have a moment. 😊');
+    // You can customize this part to perform further actions, like opening a form or a messaging app.
+  });
+</script>
+
+</body>
+</html>
